@@ -12,4 +12,7 @@ RUN mkdir node_modules
 COPY content-type /srv/node_modules/content-type
 
 RUN npm install
+COPY config.yaml /srv/config.yaml
+
+EXPOSE 7231
 CMD npm start
