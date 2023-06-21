@@ -1,0 +1,4 @@
+[submodule "restbase"]
+	path = restbase
+	url = https://github.com/physikerwelt/restbase.git
+	branch = FakeMathoidPng
